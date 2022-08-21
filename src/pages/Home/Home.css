@@ -1,0 +1,76 @@
+
+.foods{
+    width: 1100px;
+    padding-top: 24px;
+    padding-right: 38px;
+    padding-left: 10px;
+    background-color: #252836;
+} 
+
+.home-box{
+    display: flex;
+    align-items: center;
+ margin-bottom: 24px;
+ padding-bottom: 13px;
+ border-bottom: 1px solid #DCDCDC;
+    
+}
+
+.home-link{
+    margin-right: 32px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.home-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+   
+}
+
+
+.home-input{
+    padding: 14px;
+    padding-left: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ABBBC2;
+    background-color: #2D303E;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+}
+.home-input::before{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background-image: url("../.././assets/images/Path.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+
+}
+.appetizer-select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 52px; 
+}
+
+.appetizer-hidden{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+ 

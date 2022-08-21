@@ -1,0 +1,17 @@
+.appetizer-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 632px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.foods{
+    width: 680px;
+    padding-top: 24px;
+    padding-right: 38px;
+    padding-left: 10px;
+    background-color: #252836;
+} 

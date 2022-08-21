@@ -1,0 +1,23 @@
+
+.home-title-box{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .home-title{
+        margin: 0;
+        margin-bottom: 4px;
+        padding: 0;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    
+    .home-time{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #E0E6E9;
+    }
