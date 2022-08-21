@@ -16,7 +16,7 @@
 
 .settings-div{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .setting-pages{
@@ -73,5 +73,5 @@ list-style-type: none;
 
 .settings-div{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
