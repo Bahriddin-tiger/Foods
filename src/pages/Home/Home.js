@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import {NavLink,Outlet} from "react-router-dom"
 import { Header } from "../../components/Header";
-import { Select } from "../../components/Select/Select"
+
 import "./Home.css"
 export const  Home = () =>{
     const [select, setSelect] = useState([]);
