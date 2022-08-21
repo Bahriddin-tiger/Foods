@@ -23,12 +23,7 @@ export const  Home = () =>{
     
     return(
         <>
-<select className="select" onChange = {(evt) => {setSelect(evt.target.value)}}>
-<option defaultValue = 'Dine In' > Dine In </option> 
-<option defaultValue = 'To Go' > To Go </option>
-<option defaultValue = 'Delivery' > Delivery </option> 
 
- </select>
       
 
        <div className="home-flex">
@@ -59,7 +54,12 @@ export const  Home = () =>{
         <h2 className="appetizer-hidden">
         Choose Dishes
         </h2>
-<Select  select={select}  setSelect={setSelect} />
+        <select className="select" onChange = {(evt) => {setSelect(evt.target.value)}}>
+<option defaultValue = 'Dine In' > Dine In </option> 
+<option defaultValue = 'To Go' > To Go </option>
+<option defaultValue = 'Delivery' > Delivery </option> 
+
+ </select>
     </div>
         <div>
             <Outlet/>
